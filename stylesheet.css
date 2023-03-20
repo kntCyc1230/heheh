@@ -1,0 +1,106 @@
+@font-face{
+src: url(Quicksand-VariableFont_wght.ttf);
+font-family: qck;
+}
+
+
+body{
+	margin:0;
+	padding:0;
+	background: url(bg1.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	}
+	
+.fuc {
+	display:grid;
+	align-items:center;
+	justify-content:center;
+	min-height:100vh;
+	padding:0;
+
+}
+.txt {
+	color:white;
+	text-align:center;
+}
+
+.txt2 {
+	color:white;
+	text-align:center;
+	font-size:21px;
+}
+
+.gege {
+
+	background: rgba(0,0,0,0.35);
+	padding:20px;
+	width:300px;
+	backdrop-filter:blur(3px);
+	font-family:qck;
+}
+
+#dicc{
+	display:none;
+	align-items:center;
+	justify-content:center;
+	min-height:100vh;
+	padding:0;
+	opacity:0%;
+	
+
+}
+
+#haha2 {
+	background: rgba(0,0,0,0.35);
+	padding:20px;
+	width:300px;
+	backdrop-filter:blur(3px);
+	font-family:qck;
+
+}
+
+.h {
+	color:white;
+	text-align:center;
+	margin:0;
+	font-size:25px;
+}
+
+.txtbox {
+	height:40px;
+	width:200px;
+	margin:0;
+	text-align:center;
+	font-family:qck;
+	font-size:18px;
+	padding:0px;
+	background:transparent;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom:1.5px solid white;
+	outline:none;
+	color:white;
+	
+}
+
+#btn {
+
+	height:50px;
+	width:100px;
+	margin-top:50px;
+	margin-bottom:50px;
+	background:transparent;
+	border:1.5px solid white;
+	border-radius:60px;
+	font-family:qck;
+	font-size:18px;
+	color: white;
+	outline:none;
+}
+
+#btn:disabled{
+	opacity:50%;
+
+}
